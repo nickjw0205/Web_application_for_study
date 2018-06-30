@@ -77,3 +77,11 @@
 ::1 - - [30/Jun/2018:16:33:42 +0900] "GET /favicon.ico HTTP/1.1" 200 1150
 ::1 - - [30/Jun/2018:16:33:46 +0900] "GET /css/ex_css_1.html HTTP/1.1" 200 337
 ::1 - - [30/Jun/2018:16:33:46 +0900] "GET /favicon.ico HTTP/1.1" 200 1150
+::1 - - [30/Jun/2018:16:35:45 +0900] "GET /css/ex_css_1.html HTTP/1.1" 200 345
+::1 - - [30/Jun/2018:16:35:45 +0900] "GET /favicon.ico HTTP/1.1" 200 1150
+::1 - - [30/Jun/2018:16:35:50 +0900] "GET /css/ex_css_1.html HTTP/1.1" 200 345
+::1 - - [30/Jun/2018:16:35:50 +0900] "GET /favicon.ico HTTP/1.1" 200 1150
+::1 - - [30/Jun/2018:16:36:17 +0900] "GET /css/ex_css_1.html HTTP/1.1" 200 370
+::1 - - [30/Jun/2018:16:36:17 +0900] "GET /favicon.ico HTTP/1.1" 200 1150
+::1 - - [30/Jun/2018:16:37:45 +0900] "GET /css/ex_css_1.html HTTP/1.1" 200 405
+::1 - - [30/Jun/2018:16:37:45 +0900] "GET /favicon.ico HTTP/1.1" 200 1150
