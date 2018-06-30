@@ -80,3 +80,47 @@ Version: '5.7.22'  socket: '/Applications/mampstack-7.1.18-1/mysql/tmp/mysql.soc
 2018-06-26T10:50:44.371969Z 0 [Note] Event Scheduler: Loaded 0 events
 2018-06-26T10:50:44.372162Z 0 [Note] /Applications/mampstack-7.1.18-1/mysql/bin/mysqld.bin: ready for connections.
 Version: '5.7.22'  socket: '/Applications/mampstack-7.1.18-1/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2018-06-30T07:16:18.6NZ mysqld_safe Logging to '/Applications/mampstack-7.1.18-1/mysql/data/mysqld.log'.
+2018-06-30T07:16:18.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/mampstack-7.1.18-1/mysql/data
+2018-06-30T07:16:18.407733Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-06-30T07:16:18.409418Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-06-30T07:16:18.410071Z 0 [Note] /Applications/mampstack-7.1.18-1/mysql/bin/mysqld.bin (mysqld 5.7.22) starting as process 69517 ...
+2018-06-30T07:16:18.435094Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-06-30T07:16:18.435189Z 0 [Note] InnoDB: Uses event mutexes
+2018-06-30T07:16:18.435233Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-06-30T07:16:18.435252Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-06-30T07:16:18.438299Z 0 [Note] InnoDB: Number of pools: 1
+2018-06-30T07:16:18.440769Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-06-30T07:16:18.442721Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-06-30T07:16:18.463402Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-06-30T07:16:18.487417Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-06-30T07:16:18.492176Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2589742
+2018-06-30T07:16:18.492212Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2589751
+2018-06-30T07:16:18.492235Z 0 [Note] InnoDB: Database was not shutdown normally!
+2018-06-30T07:16:18.492246Z 0 [Note] InnoDB: Starting crash recovery.
+2018-06-30T07:16:18.643150Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-06-30T07:16:18.643191Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-06-30T07:16:18.643512Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-06-30T07:16:18.661380Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-06-30T07:16:18.662446Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-06-30T07:16:18.662464Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-06-30T07:16:18.662739Z 0 [Note] InnoDB: Waiting for purge to start
+2018-06-30T07:16:18.714501Z 0 [Note] InnoDB: 5.7.22 started; log sequence number 2589751
+2018-06-30T07:16:18.714868Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/mampstack-7.1.18-1/mysql/data/ib_buffer_pool
+2018-06-30T07:16:18.717599Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-06-30T07:16:18.728965Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180630 16:16:18
+2018-06-30T07:16:18.741992Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-06-30T07:16:18.742036Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-06-30T07:16:18.742737Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-06-30T07:16:18.742925Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-06-30T07:16:18.758741Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.759036Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.759063Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.759324Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.759356Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.759575Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.773561Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.773616Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-06-30T07:16:18.847886Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-06-30T07:16:18.848026Z 0 [Note] /Applications/mampstack-7.1.18-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.22'  socket: '/Applications/mampstack-7.1.18-1/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
