@@ -17,3 +17,11 @@
 [Sat Jun 30 16:16:19.921556 2018] [ssl:warn] [pid 69533] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
 [Sat Jun 30 16:16:20.052179 2018] [mpm_prefork:notice] [pid 69533] AH00163: Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.18 configured -- resuming normal operations
 [Sat Jun 30 16:16:20.052412 2018] [core:notice] [pid 69533] AH00094: Command line: '/Applications/mampstack-7.1.18-1/apache2/bin/httpd.bin -f /Applications/mampstack-7.1.18-1/apache2/conf/httpd.conf'
+[Tue Jul 03 18:52:15.465936 2018] [php7:error] [pid 69537] [client ::1:50263] script '/Applications/mampstack-7.1.18-1/apache2/htdocs/phpjs/1.php' not found or unable to stat
+[Tue Jul 03 18:52:40.915666 2018] [php7:error] [pid 69536] [client ::1:50266] script '/Applications/mampstack-7.1.18-1/apache2/htdocs/phpjs/1.php' not found or unable to stat
+[Tue Jul 03 18:52:43.189508 2018] [php7:error] [pid 69536] [client ::1:50266] script '/Applications/mampstack-7.1.18-1/apache2/htdocs/phpjs/1.php' not found or unable to stat
+[Tue Jul 03 18:58:28.582335 2018] [mpm_prefork:notice] [pid 69533] AH00169: caught SIGTERM, shutting down
+[Tue Jul 03 18:58:32.786039 2018] [ssl:warn] [pid 40135] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 03 18:58:32.836260 2018] [ssl:warn] [pid 40136] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 03 18:58:32.927148 2018] [mpm_prefork:notice] [pid 40136] AH00163: Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.18 configured -- resuming normal operations
+[Tue Jul 03 18:58:32.927242 2018] [core:notice] [pid 40136] AH00094: Command line: '/Applications/mampstack-7.1.18-1/apache2/bin/httpd.bin -f /Applications/mampstack-7.1.18-1/apache2/conf/httpd.conf'
