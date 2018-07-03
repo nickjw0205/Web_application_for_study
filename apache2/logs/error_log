@@ -25,3 +25,6 @@
 [Tue Jul 03 18:58:32.836260 2018] [ssl:warn] [pid 40136] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
 [Tue Jul 03 18:58:32.927148 2018] [mpm_prefork:notice] [pid 40136] AH00163: Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.18 configured -- resuming normal operations
 [Tue Jul 03 18:58:32.927242 2018] [core:notice] [pid 40136] AH00094: Command line: '/Applications/mampstack-7.1.18-1/apache2/bin/httpd.bin -f /Applications/mampstack-7.1.18-1/apache2/conf/httpd.conf'
+[Tue Jul 03 19:07:35.212929 2018] [php7:error] [pid 40141] [client ::1:50349] script '/Applications/mampstack-7.1.18-1/apache2/htdocs/2.php' not found or unable to stat
+[Tue Jul 03 19:07:37.457557 2018] [php7:error] [pid 40141] [client ::1:50349] script '/Applications/mampstack-7.1.18-1/apache2/htdocs/2.php' not found or unable to stat
+[Tue Jul 03 19:07:47.128400 2018] [php7:emerg] [pid 40187] [client ::1:50350] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Applications/mampstack-7.1.18-1/apache2/htdocs/phpjs/2.php on line 23
