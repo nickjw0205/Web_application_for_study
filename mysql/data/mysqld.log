@@ -240,3 +240,10 @@ Version: '5.7.22'  socket: '/Applications/mampstack-7.1.18-1/mysql/tmp/mysql.soc
 2018-07-03T09:58:31.803303Z 0 [Note] Event Scheduler: Loaded 0 events
 2018-07-03T09:58:31.803445Z 0 [Note] /Applications/mampstack-7.1.18-1/mysql/bin/mysqld.bin: ready for connections.
 Version: '5.7.22'  socket: '/Applications/mampstack-7.1.18-1/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2018-07-03T10:45:35.005380Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 964137ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-03T13:46:01.008794Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800926ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-04T02:54:34.501934Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47310462ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-04T07:17:12.008157Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 59813ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-04T07:34:15.009784Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 944636ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-04T09:04:26.003814Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 307681ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-04T10:28:13.011650Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5000811ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
