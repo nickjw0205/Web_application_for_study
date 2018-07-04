@@ -16,12 +16,10 @@
 	<h1>
 		php
 	</h1>
+ 	<?php
 
-	
-
-	<?php
-
-		$name
+ 		$name = "egoing";
+ 		echo "안녕하세요".$name;
 
 	?>
 

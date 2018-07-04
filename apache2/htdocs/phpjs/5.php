@@ -13,7 +13,7 @@
 	<h1>php</h1>
 
 	<?php
-		var_dump(2==1)
+		var_dump(2==1);
 	?>
 </body>
 </html>
