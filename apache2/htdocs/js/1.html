@@ -9,8 +9,10 @@
 	</script> -->
 </head>
 <body>
-
-	<input type="button" value="white" onclick="alert('Hello world')"/>
+	<input type="text" id="user_input" />
+	<input type="button" value="white" onclick="alert(document.getElementById('user_input').value)"/>
 	<!-- onblur -> 마우스커서 다른곳 클릭하면 없어지는 사건 -->
 </body>
 </html>
+
+

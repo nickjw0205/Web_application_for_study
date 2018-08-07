@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="http://localhost:8080/style.css">
 </head>
 
-<body>
+<body id="target">
 
 	<header>
 		<h1><a href="http://localhost:8080">Java Script</a></h1>
@@ -21,14 +21,11 @@
 		</ol>
 	</nav>
 
-<!-- 	<article>
-		<h2>변수와 상수</h2>
-		변수란
-		<ul>
-			<li>변하는 값</li>
-			<li>x=10일 때 왼쪽 항</li>
-		</ul>
-	</article> -->
+	<div id="control">
+    <input type="button" value="white" onclick="document.getElementById('target').className='white'" />
+    <input type="button" value="black" onclick="document.getElementById('target').className='black'"  />
+  </div>
+
 
 </body>
 </html>

@@ -1,28 +1,30 @@
 /*stylebot이라는 크롬 확장 프로그램을 이용하면 더 쉽게 편집가능*/
 
-header {
-	border-bottom: 1px solid gray;
-	padding: 20px
+body.black {
+  background-color:black;
+  color:white;
 }
-
-nav{
-	border-right: 1px solid gray;
-	width: 200px;
-	height: 600px;
-	float: left;
+body.white {
+  background-color:white;
+  color:black;
 }
-
+header{
+  border-bottom:1px solid gray;
+  padding:20px;
+}
+nav {
+  border-right:1px solid gray;
+  width:200px;
+  height:600px;
+  float:left;
+}
 nav ol{
-	list-style: none;
-	
+  list-style:none;
 }
-
 article{
-	float: left;
-	padding: 20px;
+  float:left;
+  padding:20px;
 }
-
-h2{
-	font-size: 50px;
-	color: blue;
+#control {
+  float:right;
 }

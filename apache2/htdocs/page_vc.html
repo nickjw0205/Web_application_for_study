@@ -10,7 +10,7 @@ Javascript, PHP -> 동적인 언어, 어플리케이션등을 만들기 위한 �
 	<link rel="stylesheet" type="text/css" href="http://localhost:8080/style.css">
 </head>
 
-<body>
+<body id="target">
 
 	<header>
 		<h1><a href="http://localhost:8080">Java Script</a></h1>
@@ -23,6 +23,11 @@ Javascript, PHP -> 동적인 언어, 어플리케이션등을 만들기 위한 �
 			<li><a href="http://localhost:8080/page_op.html">연산자</a></li>
 		</ol>
 	</nav>
+
+	<div id="control">
+		<input type="button" value="white" onclick="document.getElementById('target').className='white'" />
+		<input type="button" value="black" onclick="document.getElementById('target').className='black'"  />
+	</div>
 
 	<article>
 		<h2>변수와 상수</h2>
