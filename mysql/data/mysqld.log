@@ -625,3 +625,4 @@ Version: '5.7.22'  socket: '/Applications/mampstack-7.1.18-1/mysql/tmp/mysql.soc
 2018-08-07T05:17:40.576035Z 0 [Note] Event Scheduler: Loaded 0 events
 2018-08-07T05:17:40.576199Z 0 [Note] /Applications/mampstack-7.1.18-1/mysql/bin/mysqld.bin: ready for connections.
 Version: '5.7.22'  socket: '/Applications/mampstack-7.1.18-1/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2018-08-07T07:09:25.459570Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 705249ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
